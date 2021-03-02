@@ -8,7 +8,7 @@ class UpdateItem {
 
   UpdateItem({@required this.repository});
 
-  void execute(ListItem item) {
+  void execute(MercadoItem item) {
     repository.updateItem(item);
   }
 }

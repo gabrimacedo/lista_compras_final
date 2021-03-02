@@ -8,7 +8,7 @@ class RemoveItem {
 
   RemoveItem({@required this.repository});
 
-  void execute(ListItem item) {
+  void execute(MercadoItem item) {
     repository.deleteItem(item);
   }
 }

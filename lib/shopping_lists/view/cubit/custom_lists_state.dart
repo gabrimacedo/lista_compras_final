@@ -6,14 +6,14 @@ abstract class CustomListsState extends Equatable {
   List<Object> get props => [];
 }
 
-class FetchingLists extends CustomListsState {}
+class FetchingMyLists extends CustomListsState {}
 
-class NoLists extends CustomListsState {}
+class MyListsEmpty extends CustomListsState {}
 
-class ListsFetched extends CustomListsState {
+class MyListsFetched extends CustomListsState {
   final List<MyList> shoppingLists;
 
-  ListsFetched(this.shoppingLists);
+  MyListsFetched(this.shoppingLists);
 
   @override
   List<Object> get props => [shoppingLists];

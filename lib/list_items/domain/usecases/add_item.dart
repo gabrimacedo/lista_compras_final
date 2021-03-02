@@ -8,7 +8,7 @@ class AddItem {
 
   AddItem({@required this.repository});
 
-  void execute(ListItem item) {
+  void execute(MercadoItem item) {
     repository.addItem(item);
   }
 }

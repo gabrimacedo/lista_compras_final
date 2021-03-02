@@ -3,17 +3,17 @@ import 'package:lista_compras_final/list_items/domain/repositories/list_item_rep
 
 class ListItemRepositoryImpl extends ListItemRepositoryContract {
   @override
-  void addItem(ListItem item) {
+  void addItem(MercadoItem item) {
     // TODO: implement addItem
   }
 
   @override
-  void deleteItem(ListItem item) {
+  void deleteItem(MercadoItem item) {
     // TODO: implement deleteItem
   }
 
   @override
-  void updateItem(ListItem item) {
+  void updateItem(MercadoItem item) {
     // TODO: implement updateItem
   }
 }

@@ -1,4 +1,5 @@
 import 'package:kiwi/kiwi.dart';
+import 'package:lista_compras_final/shopping_lists/domain/usecases/fetch_lists.dart';
 
 import 'shopping_lists/data/lists_repo_mock.dart';
 import 'shopping_lists/domain/usecases/create_list.dart';
@@ -21,5 +22,6 @@ class DependencyInjector {
     container.registerInstance(CreateList(repository: listsRepository));
     container.registerInstance(DeleteList(repository: listsRepository));
     container.registerInstance(ModifyList(repository: listsRepository));
+    container.registerInstance(FecthLists(repository: listsRepository));
   }
 }

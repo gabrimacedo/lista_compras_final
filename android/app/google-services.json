@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "250882642176",
+    "firebase_url": "https://listamercado-ac740.firebaseio.com",
+    "project_id": "listamercado-ac740",
+    "storage_bucket": "listamercado-ac740.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250882642176:android:8746c6f8f6889ff6c9e3e5",
+        "android_client_info": {
+          "package_name": "com.example.lista_compras_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250882642176-03doh9rsq303hf1smlo0g7uuem043581.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZwEFfQVsVTGanro6NE2F4fdKaWj1_12M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250882642176-03doh9rsq303hf1smlo0g7uuem043581.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250882642176:android:f16ca4e2c4e0296ac9e3e5",
+        "android_client_info": {
+          "package_name": "com.macedo.lista_compras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250882642176-03doh9rsq303hf1smlo0g7uuem043581.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZwEFfQVsVTGanro6NE2F4fdKaWj1_12M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250882642176-03doh9rsq303hf1smlo0g7uuem043581.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

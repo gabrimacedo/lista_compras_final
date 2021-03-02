@@ -13,9 +13,20 @@ class MyListsRepositoryMock extends MyListsRepositoryContract {
   }
 
   @override
-  Stream<List<MyList>> fetchLists() {
-    // TODO: implement fetchLists
-    throw UnimplementedError();
+  Stream<List<MyList>> fetchLists() async* {
+    print('fetching lists...');
+
+    // int i = 0;
+    // while (i < 3) {
+    //   await Future.delayed(const Duration(seconds: 2));
+    //   yield List.generate(i + 1, (index) {
+    //     return MyList.fake();
+    //   });
+    //   i++;
+    // }
+    yield [MyList.fake(), MyList.fake2()];
+
+    print('stream ended!');
   }
 
   @override
